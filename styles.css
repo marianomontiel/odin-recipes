@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(/Comic\ Sans.TTF);
+}
+
+body {
+    font-family: "Comic Sans";
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#banner {
+    max-width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+ul {
+    font-size: 18px;
+    border-style: dotted;
+}
